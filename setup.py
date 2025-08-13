@@ -11,7 +11,7 @@ setup(name='nnunet',
       install_requires=[
             "torch>=1.6.0a",
             "tqdm",
-            "dicom2nifti",
+            "dicom2nifti==2.4.4",
             "scikit-image>=0.14",
             "medpy",
             "scipy",
